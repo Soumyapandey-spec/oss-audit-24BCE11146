@@ -1,5 +1,7 @@
 #!/bin/bash
 # Script 2: FOSS Package Inspector
+#Author: [Soumya Pandey]
+# Concept: Uses package manager commands (pacman -Q, pacman -Qi), grep for filtering, and a case statement for conditional output.
 # This script checks if a package is installed and shows its details
 
 PACKAGE="python"   # Change this to your chosen software
