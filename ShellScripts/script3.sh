@@ -1,5 +1,7 @@
 #!/bin/bash
 # Script 3: Disk and Permission Auditor
+#Author: [Soummya Pandey]
+# Concept: Uses arrays, for loops, ls -ld for permissions, du -sh for disk usage, and conditional checks to audit directories.
 # This script checks size, owner and permissions of important directories
 
 DIRS=("/etc" "/var/log" "/home" "/usr/bin" "/tmp")
