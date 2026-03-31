@@ -1,5 +1,7 @@
 #!/bin/bash
 # Script 5: Open Source Manifesto Generator
+#Author: [Soumya Pandey]
+# Concept: Uses interactive input (read -p), date command, file redirection, dynamic filenames, and cat to generate a manifesto.
 # This script takes user input and generates a manifesto
 
 echo "Answer three questions to generate your manifesto:"
