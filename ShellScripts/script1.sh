@@ -1,15 +1,17 @@
 #!/bin/bash
 # Script 1: System Identity Report
+#Author: [Soumya Pandey]
 # This script displays basic system information
+# Concept: Uses system commands (uname, whoami, uptime, date) and text processing (grep, cut) to display system identity information.
 
 STUDENT_NAME="Soumya Pandey"
 SOFTWARE_CHOICE="python"
 
 # Get system details
-KERNEL=$(uname -r)   # Kernel version
-USER_NAME=$(whoami)  # Current user
-UPTIME=$(uptime -p)  # System uptime
-DATE=$(date)         # Current date and time
+KERNEL=$(uname -r)   
+USER_NAME=$(whoami)  
+UPTIME=$(uptime -p)  
+DATE=$(date)         
 DISTRO=$(grep '^PRETTY_NAME' /etc/os-release | cut -d= -f2 | tr -d '"')
 
 # Display output
