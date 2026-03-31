@@ -1,5 +1,7 @@
 #!/bin/bash
 # Script 4: Log File Analyzer
+#Author: [Soumya Pandey]
+# Concept: Uses command-line arguments, default values, while-read loop, grep, tail, and error handling to analyze log files.
 # This script counts occurrences of a keyword in a log file
 
 LOGFILE=$1                 # First argument = log file
