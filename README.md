@@ -13,7 +13,7 @@ This repository contains the shell scripts created for the Open Source Audit cap
 ## Required Dependencies  
 To run the scripts in this repository, you need the following environment:  
 
-- **Operating System:** A Linux distribution (Ubuntu or an equivalent VM).  
+- **Operating System:** A Linux distribution (ArchLinux).  
 - **Shell:** Bash.  
 - **Permissions:** You need sudo access for Scripts 3 and 4 to read system directories and logs.  
 - **Software:** The Python package should be installed and configured on the system.  
